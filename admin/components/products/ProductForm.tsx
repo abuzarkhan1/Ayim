@@ -129,7 +129,7 @@ const ProductForm: React.FC<ProductFormProps> = ({ initialData }) => {
       <div className="p-10">
         {initialData ? (
           <div className="flex items-center justify-between">
-            <p className="text-heading2-bold">Edit Product</p>
+            <p className="text-heading2-bold text-blue-1">Edit Product</p>
             <Delete id={initialData._id} item="product" />
           </div>
         ) : (
